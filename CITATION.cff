@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: SteadyOps Disaster Recovery Runbook Template
+type: dataset
+authors:
+  - family-names: Osipov
+    given-names: Yuri
+url: https://steadyops.best/articles/ha-dr-runbooks/
+repository-code: https://github.com/steadyops-best/disaster-recovery-runbook-template
+license: MIT
+version: 1.0.0
+date-released: 2026-07-10
