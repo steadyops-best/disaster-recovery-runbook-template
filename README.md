@@ -32,8 +32,9 @@ The repository keeps the reusable operational files separate from the longer exp
 3. Replace placeholders with environment-specific commands and expected outputs.
 4. Run the procedure in a clean, isolated, production-like environment.
 5. Validate recovery with [`templates/recovery-validation.md`](templates/recovery-validation.md).
-6. Record the exercise in [`templates/incident-timeline.md`](templates/incident-timeline.md).
-7. Score readiness with [`templates/dr-readiness-scorecard.md`](templates/dr-readiness-scorecard.md) and convert every gap into an owned action.
+6. Record events in [`templates/incident-timeline.md`](templates/incident-timeline.md).
+7. Complete [`templates/dr-drill-report.md`](templates/dr-drill-report.md) after the exercise.
+8. Score readiness with [`templates/dr-readiness-scorecard.md`](templates/dr-readiness-scorecard.md) and convert every gap into an owned action.
 
 ## Repository contents
 
@@ -42,6 +43,7 @@ The repository keeps the reusable operational files separate from the longer exp
 | [`templates/runbook-template.md`](templates/runbook-template.md) | Recovery contract, trigger, stop conditions, dependency order, procedure, and final evidence. |
 | [`templates/recovery-validation.md`](templates/recovery-validation.md) | Infrastructure, data, application, business, and evidence checks after restore or failover. |
 | [`templates/incident-timeline.md`](templates/incident-timeline.md) | Detection, decision, recovery, communication, and validation timeline. |
+| [`templates/dr-drill-report.md`](templates/dr-drill-report.md) | Full exercise report covering scenario, objectives, timeline, recovered state, RPO/RTO, gaps, and approval. |
 | [`templates/dr-readiness-scorecard.md`](templates/dr-readiness-scorecard.md) | Maturity score from unknown assumptions to proven recovery controls. |
 | [`CITATION.cff`](CITATION.cff) | Citation metadata for derived runbooks and internal standards. |
 | [`LICENSE`](LICENSE) | MIT license for reuse and adaptation. |
