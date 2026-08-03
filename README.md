@@ -2,9 +2,9 @@
 
 A reusable disaster-recovery package for engineering teams that need an executable recovery path, named ownership, measurable RPO/RTO, technical and business validation, and retained drill evidence.
 
-- Canonical implementation guide: https://steadyops.best/articles/ha-dr-runbooks/
-- PostgreSQL HA review: https://steadyops.best/postgresql-ha-review/
-- SteadyOps resource library: https://steadyops.best/resources/
+- [Disaster recovery runbook template and implementation guide](https://steadyops.best/articles/ha-dr-runbooks/)
+- [PostgreSQL HA and failover review](https://steadyops.best/postgresql-ha-review/)
+- [SteadyOps DevOps/SRE resource library](https://steadyops.best/resources/)
 - License: MIT
 - Artifact version: 1.0.0
 - Repository reviewed: 2026-07-12
@@ -98,11 +98,10 @@ These templates are not a substitute for an environment-specific recovery design
 
 ## Related SteadyOps resources
 
-- Kubernetes rollback checklist: https://github.com/steadyops-best/kubernetes-rollback-checklist
-- Zero-downtime deployment checklist: https://github.com/steadyops-best/zero-downtime-deployment-checklist
-- PostgreSQL production and failover guide: https://steadyops.best/articles/postgresql-at-scale/
-- Production reliability cases: https://steadyops.best/reliability-cases/
-- SteadyOps platform case study: https://steadyops.best/steadyops-platform-case-study/
+- [Kubernetes rollback checklist](https://github.com/steadyops-best/kubernetes-rollback-checklist)
+- [Zero-downtime deployment checklist](https://github.com/steadyops-best/zero-downtime-deployment-checklist)
+
+For a PostgreSQL-specific recovery design, use the [PostgreSQL HA guide with Patroni and PgBouncer](https://steadyops.best/articles/postgresql-at-scale/) together with the validation templates in this repository.
 
 ## Citation
 
