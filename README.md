@@ -36,6 +36,8 @@ The repository keeps the reusable operational files separate from the longer exp
 7. Complete [`templates/dr-drill-report.md`](templates/dr-drill-report.md) after the exercise.
 8. Score readiness with [`templates/dr-readiness-scorecard.md`](templates/dr-readiness-scorecard.md) and convert every gap into an owned action.
 
+Before your first exercise, compare the blank drill report with a [worked PostgreSQL recovery drill report](https://steadyops.best/articles/ha-dr-runbooks/#worked-drill-report). Use the example to see how the recovery point, elapsed time, customer transaction, and follow-up work fit together.
+
 ## Repository contents
 
 | File | Purpose |
