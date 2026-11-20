@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          tar -czf disaster-recovery-runbook-kit.tar.gz README.md templates tools examples LICENSE CITATION.cff
+          tar -czf disaster-recovery-runbook-kit.tar.gz README.md docs templates tools examples LICENSE CITATION.cff
           sha256sum disaster-recovery-runbook-kit.tar.gz > disaster-recovery-runbook-kit.tar.gz.sha256
       - uses: softprops/action-gh-release@v2
         with:

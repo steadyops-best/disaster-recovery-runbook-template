@@ -38,6 +38,10 @@ The repository keeps the reusable operational files separate from the longer exp
 
 Before your first exercise, compare the blank drill report with a [worked PostgreSQL recovery drill report](https://steadyops.best/articles/ha-dr-runbooks/#worked-drill-report). Use the example to see how the recovery point, elapsed time, customer transaction, and follow-up work fit together.
 
+## Practical article
+
+[Verify orders after a PostgreSQL point-in-time restore](docs/verify-orders-after-postgresql-restore.md) shows how to reconcile recovered orders with payment records before reopening checkout.
+
 ## Repository contents
 
 | File | Purpose |
