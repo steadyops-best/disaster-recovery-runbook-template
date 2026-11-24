@@ -38,9 +38,11 @@ The repository keeps the reusable operational files separate from the longer exp
 
 Before your first exercise, compare the blank drill report with a [worked PostgreSQL recovery drill report](https://steadyops.best/articles/ha-dr-runbooks/#worked-drill-report). Use the example to see how the recovery point, elapsed time, customer transaction, and follow-up work fit together.
 
-## Practical article
+## Practical article and filled drill report
 
 [Verify orders after a PostgreSQL point-in-time restore](docs/verify-orders-after-postgresql-restore.md) shows how to reconcile recovered orders with payment records before reopening checkout.
+
+The [filled checkout drill report](examples/checkout-pitr-drill-report.md) gives a synthetic reconciliation ledger, an explicit reopen decision, and example RPO and RTO calculations. Get the archive and SHA-256 checksum from [GitHub Releases](https://github.com/steadyops-best/disaster-recovery-runbook-template/releases).
 
 ## Repository contents
 
